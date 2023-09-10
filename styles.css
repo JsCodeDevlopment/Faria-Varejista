@@ -174,3 +174,49 @@ footer img{
   background-color: var(--cor-secondary);
   width: 28rem;
 }
+
+@media (max-width:890px) {
+  .main-container{
+    height: 100rem;
+  }
+  .main-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 50rem;
+  }
+  .first-image{
+    width: 30rem;
+  }
+  .header-container{
+    padding: 0 0.5rem;
+  }
+  .image-container{
+    height: 65rem;
+  }
+  .carrosel-image{
+    width: 19rem;
+    height: 19rem;
+  }
+  .header-options-container{
+    height: 18rem;
+  }
+  .image-options{
+    height: 39rem;
+  }
+  .selo-container{
+    height: 4rem;
+  }
+  .selo-image{
+    width: 20rem;
+    height: 3rem;
+  }
+  footer{
+    height: 7.5rem; 
+  }
+  footer img{
+    width: 18rem;
+  }
+}

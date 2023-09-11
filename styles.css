@@ -4,8 +4,10 @@
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: "Lato", sans-serif;
-  background-color: var(--cor-back);
   scroll-behavior: smooth;
+}
+html{
+  background-color: var(--cor-back);
 }
 img {
   pointer-events: none;
@@ -89,15 +91,22 @@ section img {
   align-items: center;
   justify-content: center;
   margin-bottom: 5rem;
+  background-color: var(--cor-primary);
 }
 .header-container {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 30rem;
+  height: 28rem;
   justify-content: center;
   gap: 0.8rem;
   align-items: center;
+}
+.header-container h1{
+  color: var(--cor-base);
+}
+.header-container p{
+  color: var(--cor-base);
 }
 .pet-logo {
   width: 6rem;
@@ -166,14 +175,19 @@ section img {
 footer{
   display: flex;
   align-items: center;
+  flex-direction: column;
   width: 100%;
   height: 12rem;
   justify-content: center;
   background-color: var(--cor-secondary);
 }
+footer p {
+  background-color: var(--cor-secondary);
+  color: var(--cor-base);
+}
 footer img{
   background-color: var(--cor-secondary);
-  width: 28rem;
+  width: 21rem;
 }
 
 @media (max-width:890px) {
@@ -215,7 +229,7 @@ footer img{
     height: 3rem;
   }
   footer{
-    height: 7.5rem; 
+    height: 11.5rem; 
   }
   footer img{
     width: 18rem;

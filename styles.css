@@ -6,7 +6,7 @@
   font-family: "Lato", sans-serif;
   scroll-behavior: smooth;
 }
-html{
+html {
   background-color: var(--cor-back);
 }
 img {
@@ -102,10 +102,10 @@ section img {
   gap: 0.8rem;
   align-items: center;
 }
-.header-container h1{
+.header-container h1 {
   color: var(--cor-base);
 }
-.header-container p{
+.header-container p {
   color: var(--cor-base);
 }
 .pet-logo {
@@ -163,16 +163,28 @@ section img {
   width: 13rem;
   height: 4rem;
 }
+.depoimentos {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+  background-color: var(--cor-base);
+  padding: 1rem 0;
+}
 .selo-container {
   display: flex;
   width: 100%;
   height: 5.9rem;
+  align-items: center;
   justify-content: center;
 }
 .selo-image {
-  width: 39rem;
+  height: 3rem;
+  width: 20rem;
 }
-footer{
+footer {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -186,11 +198,11 @@ footer p {
   font-size: 2.3rem;
 }
 
-@media (max-width:890px) {
-  .main-container{
+@media (max-width: 890px) {
+  .main-container {
     height: 100rem;
   }
-  .main-section{
+  .main-section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -198,36 +210,39 @@ footer p {
     justify-content: space-around;
     height: 50rem;
   }
-  .first-image{
+  .first-image {
     width: 30rem;
   }
-  .header-container{
+  .header-container {
     padding: 0 0.5rem;
   }
-  .image-container{
+  .image-container {
     height: 65rem;
   }
-  .carrosel-image{
+  .carrosel-image {
     width: 19rem;
     height: 19rem;
   }
-  .header-options-container{
+  .header-options-container {
     height: 18rem;
   }
-  .image-options{
+  .image-options {
     height: 39rem;
   }
-  .selo-container{
+  .depoimentos img{
+    width: 23rem;
+  }
+  .selo-container {
     height: 4rem;
   }
-  .selo-image{
+  .selo-image {
     width: 20rem;
     height: 3rem;
   }
-  footer{
-    height: 11.5rem; 
+  footer {
+    height: 11.5rem;
   }
-  footer p{
+  footer p {
     font-size: 1.6rem;
   }
 }

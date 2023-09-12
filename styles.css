@@ -182,12 +182,8 @@ footer{
   background-color: var(--cor-secondary);
 }
 footer p {
-  background-color: var(--cor-secondary);
   color: var(--cor-base);
-}
-footer img{
-  background-color: var(--cor-secondary);
-  width: 21rem;
+  font-size: 2.3rem;
 }
 
 @media (max-width:890px) {
@@ -231,7 +227,7 @@ footer img{
   footer{
     height: 11.5rem; 
   }
-  footer img{
-    width: 18rem;
+  footer p{
+    font-size: 1.6rem;
   }
 }
